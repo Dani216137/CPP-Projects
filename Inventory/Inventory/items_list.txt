@@ -1,0 +1,3 @@
+//vnum name damage health buycost stackable rarity
+1 Wood_Sword 3 0 3400 false common
+2 Stone_sword 5 0 4000 false common
