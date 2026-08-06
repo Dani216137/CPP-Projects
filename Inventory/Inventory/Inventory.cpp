@@ -15,7 +15,7 @@ void Inventory::show(const vector<itm>& items)
 			continue;
 		}
 
-		// caută itemul după id
+		// cauta itemul după id
 		const itm* found = nullptr;
 
 		for (const auto& item : items) {
@@ -66,7 +66,7 @@ bool Inventory::Swapitm(int from, int to)
 		return false;
 	}
 	if (store[from].id == store[to].id) {
-		throw invalid_argument(" You can't swap a same item");   // 2 0 3 0 3;
+		throw invalid_argument(" You can't swap a same item");  
 		return false;
 	}
 	if (store[from].id != store[to].id) {
