@@ -12,34 +12,34 @@ private:
 public:
 	Player(string n,int healt,int dmg):name(n),health(healt),damage(dmg){}
 
-	string GetName() { //getter
+	string GetName() { 
 		return name;
 	}
 	int GetHealth() {
 
-		return health; //getter
+		return health; 
 
 	}
 	int GetDmg() {
-		return damage;  //getter
+		return damage;  
 	}
 	void TakeDmg(int dmg) {
 
 		if (dmg > health) {
-			health = 0;       //health never 0
+			health = 0;       
 		}
 		else
-			health -= dmg;  // health = initial healt -dmg
+			health -= dmg;  
 	}
-	void Attack(Player& target) {   //functia ataca , cu referinta la playe
+	void Attack(Player& target) {  
 		target.TakeDmg(damage);
 	}
 	bool Alive() {
-		return health > 0;  //check if its Alive 
+		return health > 0; 
 	}
 
 	void ShowStatus()const {
-		cout << name<< "HP:" << health << " " << "DMG:" << damage;  //check status Player
+		cout << name<< "HP:" << health << " " << "DMG:" << damage;  
 	}
 };
 
@@ -63,7 +63,7 @@ int main()
 			p1.Attack(p2);
 			cout << "Ion il ataca pe Marin!";
 			cout << endl;
-			p2.ShowStatus();                                 //game loop
+			p2.ShowStatus();                             
 			cout << endl;
 		}
 
