@@ -1,0 +1,10 @@
+Programul a fost deschis!
+The user check the accounts!(Option 1)
+
+Somebody added oner with the id: 82 and balance: 1912
+Somebody search for ID : 2 with the owner : Andrei Ionescu!!!
+Programul a fost inchis!
+Programul a fost deschis!
+Programul a fost deschis!
+The user check the accounts!(Option 1)
+
