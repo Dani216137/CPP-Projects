@@ -30,6 +30,14 @@ The program allows objects to be added, moved, stacked and divided into smaller 
 
 [View project](./Inventory)
 
+### Bank Manager
+
+A console-based banking application for managing accounts and performing basic transactions.
+
+The application supports account creation, searching, deletion, deposits, withdrawals, transfers and account status management. It also includes file persistence, transaction logging and input validation.
+
+[View project](./Bank%20Manager)
+
 ## About me
 
 I am currently preparing for university studies in computer science. I am interested in C++, game development and low-level programming.
